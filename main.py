@@ -22,7 +22,10 @@ class main:
         proces = []
 
         try:
-
+            from akk import akk
+            # В функцию akk() передаём 2 значения: int(номер теефона на который зарегестрирован аккаунт), str(пароль).
+            akks.append(akk("""""", """"""))
+            akks.append(akk("""""", """"""))
         except:
             print("error Авторизии")
 
